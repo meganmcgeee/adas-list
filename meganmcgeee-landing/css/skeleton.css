@@ -157,12 +157,28 @@ p {
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
+/*a {
   color: #1EAEDB; }
 a:hover {
-  color: #0FA0CE; }
+  color: #0FA0CE; }*/
 
+  a:link {
+    color: #d5c2e0;
+    text-decoration: none;
+  }
 
+  a:active {
+    color: #0000ff;
+    text-decoration: none;
+  }
+  a:visited {
+    color: ##d5c2e0;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #000;
+    text-decoration: none;
+  }
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
