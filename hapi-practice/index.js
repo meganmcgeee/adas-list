@@ -1,0 +1,1 @@
+var Hapi = require('hapi');
