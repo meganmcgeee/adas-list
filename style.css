@@ -72,7 +72,7 @@ footer {
 
 a,a:hover {
   color:#223344;
-  text-decoration:none;
+  text-decoration:underline;
 }
 
 .icon-bar {
@@ -95,10 +95,11 @@ a,a:hover {
 .navbar-bright a, .navbar-bright .navbar-brand, #masthead h4 {
   font-size:14px;
   letter-spacing:.08em;
+  text-decoration: none;
 }
 
 .navbar-bright li > a:hover {
-  background-color:#000044;
+  color:gray;
 }
 
 .dropdown-menu {

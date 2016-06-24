@@ -16,7 +16,7 @@ function getWatchedRepos()
             // Details of Repo
           	'<ul class="repo_details">' +
             // Owner of the Repo
-            '<li id="owner">' + 'Author: '  + this.owner.login + '</li><br>' +
+            '<li id="owner">' + 'Author: ' + this.owner.login + '</li><br>' +
             // Language of the Repo
           	'<li id="language">' + 'Language: ' + this.language + '</li><br>' +
           	'</ul>' +
