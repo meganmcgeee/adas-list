@@ -1,6 +1,6 @@
 body {
   padding-top: 75px;
-  /*background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8a/H96566k.jpg');*/
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8a/H96566k.jpg');
 }
 li{
   list-style: none;
@@ -162,11 +162,3 @@ a,a:hover {
   padding:6px;
   color:#fff;
 }
-
-.btn-twitter {background-color:#4099FF;color:#fff;}
-.btn-facebook {background-color:#3B5998;color:#fff;}
-.btn-google-plus {background-color:#d34836;color:#fff;}
-
-.btn-twitter:hover {background-color:#3088FF;color:#62BBFF;}
-.btn-facebook:hover {background-color:#2A4998;color:#4C6BBA;}
-.btn-google-plus:hover {background-color:#C23836;color:#E45A58;}
