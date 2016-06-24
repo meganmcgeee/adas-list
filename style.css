@@ -1,11 +1,13 @@
 body {
   padding-top: 75px;
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8a/H96566k.jpg');
+  background-color:#efefef;
+  font-family:'Courier';
 }
 li{
   list-style: none;
   display: inline-block;
-  padding: 10px;
+  padding: 20px;
 }
 ul
 
@@ -13,7 +15,11 @@ ul
   margin: 0 10px 0 2px;"
 }
 
-
+/*Brand styling*/
+.ada-brand{
+  height: 73px;
+  width: 171px;
+}
 
 /*Bootstrap Template*/
 /* override bootstrap styles */
@@ -23,21 +29,12 @@ ul
   width:auto;
 }
 
-body {
-  padding-top:50px;
-  color:#646464;
-  background-color:#efefef;
-  font-family:'Courier';
+.navbar-brand {
+  color: #000;
+  padding-top: 5px;
 }
-
-.repo_details{
-
-
-}
-
 
 footer {
-
   margin-top:40px;
   padding-top:40px;
   padding-bottom:40px;
@@ -96,7 +93,6 @@ a,a:hover {
 }
 
 .navbar-bright a, .navbar-bright .navbar-brand, #masthead h4 {
-  color:#ccccdd;
   font-size:14px;
   letter-spacing:.08em;
 }
@@ -128,18 +124,6 @@ a,a:hover {
 
 .thumbnail {
   margin-bottom:8px;
-}
-
-.img-container {
-  overflow:hidden;
-  height:170px;
-}
-
-.img-container img {
-  min-width:280px;
-  min-height:180px;
-  max-width:380px;
-  max-height:280px;
 }
 
 .txt-container {
